@@ -12,7 +12,7 @@ use Rack::Session::EncryptedCookie,
 
 get '/' do
   status 200
-  return "Great, your backend is set up. Now you can configure the Stripe example apps to point here."
+  return "Great, your backend is set up. Now you can configure the Stripe ."
 end
 
 post '/ephemeral_keys' do
